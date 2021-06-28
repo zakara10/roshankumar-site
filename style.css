@@ -1,3 +1,7 @@
+body {
+    background-color: #aab5ce7e;
+}
+
 li,
 a,
 button {
@@ -59,13 +63,14 @@ img {
     width: 600px;
     height: 750px;
     padding-left: 30px;
+    top: 0px;
 }
 
 
 .main p1 {
     position: absolute;
     left: 800px;
-    top: 350px;
+    top: 200px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline-flex;
     width: 450px;
@@ -75,7 +80,7 @@ img {
 .main p2 {
     position: absolute;
     left: 800px;
-    top: 500px;
+    top: 280px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline-flex;
     width: 450px;
@@ -86,7 +91,7 @@ img {
 .main p3 {
     position: absolute;
     left: 800px;
-    top: 700px;
+    top: 450px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline-flex;
     width: 450px;
