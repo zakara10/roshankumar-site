@@ -1,5 +1,13 @@
 body {
-    background-color: #aab5ce7e;
+    background-color: #FFFFFF;
+    background-image: url("image/bg-lines.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+    padding-top: 11%;
+    padding-right: 1%;
 }
 
 li,
@@ -10,15 +18,12 @@ button {
     font-size: 16px;
     color: black;
     text-decoration: none;
-    text-shadow: 2px 2px 4px #7771719c;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px 10%;
-
 }
 
 .nav_link {
@@ -94,12 +99,12 @@ h1 {
 
 
 .main p1 {
-    position: absolute;
-    left: 800px;
-    top: 200px;
+    position: relative;
+    padding-right: 15%;
+    padding-top: 50%;
     font-family: 'Open Sans', sans-serif;
     display: inline-flex;
-    width: 450px;
+    width: 45%;
     color: #215EE9;
 }
 
@@ -123,4 +128,34 @@ h1 {
     width: 800px;
     color: #215EE9;
 
+}
+
+.bottomleft {
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+}
+
+#hero-container {
+    position: relative;
+}
+#hero-container img {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#bg-lines {
+    position: absolute;
+}
+#bg-lines-container img {
+    position: absolute;
+    bottom: 0px;    right: 0px;
+
+}
+
+#social-links {
+    position: relative;
+    bottom: 40px;
+    right: 40px;
 }
